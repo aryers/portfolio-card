@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 600px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header h3{
+    padding-left: 1rem;
+}
+.navbar-toggler{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    align-items: end;
+    background: none;
+}
+.navbar-toggler .line{
+    width: 20px;
+    float: left;
+    height: 2px;
+    background-color: rgb(158, 25, 195);
+    margin-bottom: 2px;
+}
+.card{
+    width: 50%;
+}
+p {
+    padding-left: 1rem;
+    font-weight: 700;
+    color:rgb(158, 25, 195);
+}
+h1{
+    font-size: 70px;
+    padding-left: 1rem;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(158, 25, 195), rgb(17, 216, 17));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-width: 370px;
+    max-width: 500px;
+}
+.right img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+}
+.right{
+    min-width: 370px;
+    max-width: 500px;
+}
+.social button{
+    margin: 0 0.5rem 0 1rem;
+    display: inline ;
+
+}
+#about{
+    padding: 10px;
+    background-color: rgb(175, 29, 215);
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;  
+    width: 10rem;
+    box-shadow: 5px 5px 5px rgb(155, 23, 167)
+}
+#hire{
+    padding: 10px;
+    background-color: rgb(16, 188, 16);
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;  
+    width: 10rem;
+    box-shadow: 5px 5px 5px rgb(23, 167, 71);
+}
